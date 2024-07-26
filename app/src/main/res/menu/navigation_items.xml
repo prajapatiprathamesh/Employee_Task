@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/optAbout"
+        android:title="About Us"
+        android:icon="@drawable/about_icon"/>
+    <item
+        android:id="@+id/optContact"
+        android:title="Contact Us"
+        android:icon="@drawable/call_icon"/>
+    <item
+        android:id="@+id/optTask"
+        android:title="Task"
+        android:icon="@drawable/task_icon"/>
+
+    <item
+        android:id="@+id/optUpd"
+        android:title="Updates"
+        android:icon="@drawable/update_icon"/>
+
+</group>
+    <item
+        android:id="@+id/optlog"
+        android:title="Logout"
+        android:icon="@drawable/logout_icon"/>
+
+
+</menu>

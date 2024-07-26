@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message_Activity"
+    android:orientation="vertical"
+    android:padding="19dp"
+    android:background="@drawable/update">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Please enter the message that you have to update to user"
+        android:layout_marginVertical="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/Msg"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Enter message"
+        android:inputType="text"
+        android:layout_marginVertical="10dp"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="270dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Select Date"
+        android:inputType="text"
+        android:layout_marginVertical="10dp"/>
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/calendar"
+            android:background="@drawable/calendar_icon"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/view"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="View Previous Messages"
+        android:background="@drawable/btn_round"
+        android:layout_marginVertical="10dp"/>
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Insert New Message"
+        android:background="@drawable/btn_round"/>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Delete Message"
+        android:background="@drawable/btn_round"
+        android:layout_marginVertical="10dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_del_Activity"
+    android:background="@drawable/admin_bg"
+    android:padding="30dp">
+
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginVertical="10dp" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username1"
+        android:layout_marginTop="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginVertical="10dp"/>
+
+    <!-- View Button -->
+    <Button
+        android:id="@+id/view"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:layout_marginTop="16dp"
+        android:text="View All user"
+        android:background="@drawable/round_border"
+        android:layout_marginVertical="10dp" />
+
+    <!-- Insert Button -->
+    <Button
+        android:id="@+id/ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginTop="16dp"
+        android:text="Insert New User"
+        android:background="@drawable/round_border"
+        android:layout_marginVertical="10dp"/>
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/updt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ins"
+        android:layout_marginTop="8dp"
+        android:text="Update User"
+        android:background="@drawable/round_border"
+        android:layout_marginVertical="10dp"/>
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updt"
+        android:layout_marginTop="8dp"
+        android:text="Delete user"
+        android:background="@drawable/round_border"
+        android:layout_marginVertical="10dp"/>
+</RelativeLayout>

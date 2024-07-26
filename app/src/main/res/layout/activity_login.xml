@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="10dp"
+    android:background="@drawable/log">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/username1"
+        android:layout_marginTop="50dp"
+        android:hint="Username"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/password1"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:layout_below="@id/username1"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btsignin"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/btn_round"
+        android:gravity="center"
+        android:text="Login"
+        />
+
+
+    <Button
+        android:id="@+id/btnforgot"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btsignin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/btn_round"
+        android:gravity="center"
+        android:text="Forgot Password"
+        android:layout_marginVertical="25dp"/>
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnforgot"
+        android:layout_alignEnd="@+id/btsignin"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/btn_round"
+        android:text="Register"
+        android:layout_marginVertical="2dp"/>
+
+
+</RelativeLayout>
+
